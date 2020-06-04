@@ -28,11 +28,10 @@ Learning 1% per day it will be 30% a month and 365% a year.
 
 
 
-## Projetos:
+## Projects:
 
-* **Projeto:** URL
-* **Projeto:** URL
-* **Projeto:** URL
+* **Project:** URL
+Still working on the first one...i will have news soon 
 ---
 
 
