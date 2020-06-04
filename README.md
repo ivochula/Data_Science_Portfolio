@@ -18,7 +18,7 @@ Technical Sales 2014
 
 I came across with Data Science trough a friend which was studying a one year course in Dublin during the same time i was studying industrial automation. After i've finished my degree i've curious about knowing this Data Science stuff that everyone was talking about and i started slowly to reading and studying the basics od Big Data and Data Science. And what started as an hobbie soon became a daily habbit trying to learn a little bit everyday. 
 
-Learning 1% more per day it will be 30% a month and 365% a year.
+Learning 1% per day it will be 30% a month and 365% a year.
 
 
 **Background in:** Python, Machine Learning, Space Operations and Mathematical Optimisation.
