@@ -24,8 +24,8 @@ Learning 1% more per day it will be 30% a month and 365% a year.
 **Background in:** Python, Machine Learning, Space Operations and Mathematical Optimisation.
 
 **Links:**
-* [LinkedIn](https://www.linkedin.com/in/ivochula)
-* [Medium](https://www.medium.com)
+* [LinkedIn](https://www.linkedin.com/in/ivo-chula-6b05503b/)
+
 
 
 ## Projetos:
