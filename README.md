@@ -32,6 +32,8 @@ Learning 1% per day it will be 30% a month and 365% a year.
 
 * **Project:** URL
 Still working on the first one...i will have news soon 
+
+Datalogger Poroject - Working on a project for the company where i work, i am trying to build an aplication where we can know the price for for loaning temperatura dataloggers trough the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities, and as i deal with this problem several times i have decided to create a solution... lets see if i can get my limited data science knowledge to resolve this problem.
 ---
 
 
