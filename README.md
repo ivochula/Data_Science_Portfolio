@@ -16,7 +16,7 @@ Carrer:
 Electronic Technician 2004
 Technical Sales 2014
 
-I came across with Data Science trough a friend which was studying a one year course in Dublin during the same time i was studying industrial automation. After i've finished my degree i've curious about knowing this Data Science stuff that everyone was talking about and i started slowly to reading and studying the basics od Big Data and Data Science. And what started as an hobbie soon became a daily habbit trying to learn a little bit everyday. 
+I came across with Data Science through a friend which was studying a one year Data Science course in Dublin during the same time i was studying industrial automation. After i've finished my degree i've became curious about knowing this Data Science stuff that everyone was talking about and i started slowly reading and studying the basics of Big Data and Data Science. And what started as an hobbie soon became a daily habbit trying to learn a little bit everyday. 
 
 Learning 1% per day it will be 30% a month and 365% a year.
 
@@ -33,7 +33,7 @@ Learning 1% per day it will be 30% a month and 365% a year.
 * **Project:** URL
 Still working on the first one...i will have news soon 
 
-**Datalogger Project -** I am trying to build an aplication where we can calculate the price for loaning temperature dataloggers trough the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices due to only two variables, and i deal with this problem several times, so i have decided to create a solution... lets see if i can get my limited data science knowledge to solve this problem.
+**Datalogger Project -** I am trying to build an aplication where we can calculate the price for loaning temperature dataloggers through the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices due to only two variables, and i deal with this problem several times, so i have decided to create a solution... lets see if i can get my limited data science knowledge to solve this problem.
 
 
 
