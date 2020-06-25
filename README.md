@@ -16,7 +16,7 @@ Carrer:
 Electronic Technician 2004
 Technical Sales 2014
 
-I came across with Data Science through a friend which was studying a one year Data Science course in Dublin during the same time i was studying industrial automation. After i've finished my degree i've became curious about knowing this Data Science stuff that everyone was talking about and i started slowly reading and studying the basics of Big Data and Data Science. And what started as an hobbie soon became a daily habbit trying to learn a little bit everyday. 
+I came across with Data Science through a friend which was studying a one year Data Science course in Dublin during the same time i was studying industrial automation. After i've finished my degree i've became curious about knowing this Data Science stuff that everyone was talking about and i started slowly reading and studying the basics of Big Data and Data Science. And what started as an hobby soon became a daily habbit trying to learn a little bit everyday. 
 
 Learning 1% per day it will be 30% a month and 365% a year.
 
