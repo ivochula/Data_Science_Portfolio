@@ -25,7 +25,7 @@ Learning 1% per day it will be 30% a month and 365% a year.
 
 **Links:**
 * [LinkedIn](https://www.linkedin.com/in/ivo-chula-6b05503b/)
-
+* [Kaggle](https://www.kaggle.com/ivochula)
 
 
 ## Projects:
