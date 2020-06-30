@@ -17,11 +17,11 @@ Electronic Technician 2004
 Technical Sales 2014
 
 **Courses:**
-[Introduction to Data Science 2.0] (https://mycourse.app/Rdx2u5tMhuxhnCuw7) ( DSA - Data Science Academy ) 2019 
-[Big data Basics 2.0] (https://mycourse.app/W8Jfto3QpEctRsYdA) ( DSA - Data Science Academy ) 2019
-[Python Basics for Data Analysis] (https://mycourse.app/R9fZ4evxAE8ZMgoy8) ( DSA - Data Science Academy ) 2020
-[Microsoft Power BI for Data Science] (https://mycourse.app/Lq2duQFqfZEY1PL99) ( DSA - Data Science Academy ) 2020
-[Big Data Analytics with R and Microsoft Azure Machine Learning] (https://mycourse.app/umaSeWHi8EhYxK439) ( DSA - Data Science Academy ) 2020
+* [Introduction to Data Science 2.0](https://mycourse.app/Rdx2u5tMhuxhnCuw7) ( DSA - Data Science Academy ) 2019 
+* [Big data Basics 2.0](https://mycourse.app/W8Jfto3QpEctRsYdA) ( DSA - Data Science Academy ) 2019
+* [Python Basics for Data Analysis](https://mycourse.app/R9fZ4evxAE8ZMgoy8) ( DSA - Data Science Academy ) 2020
+* [Microsoft Power BI for Data Science](https://mycourse.app/Lq2duQFqfZEY1PL99) ( DSA - Data Science Academy ) 2020
+* [Big Data Analytics with R and Microsoft Azure Machine Learning](https://mycourse.app/umaSeWHi8EhYxK439) ( DSA - Data Science Academy ) 2020
 
 I came across with Data Science through a friend which was studying a one year Data Science course in Dublin during the same time i was studying industrial automation. After i've finished my degree i've became curious about knowing this Data Science stuff that everyone was talking about and i started slowly reading and studying the basics of Big Data and Data Science. And what started as an hobby soon became a daily habbit trying to learn a little bit everyday. 
 
