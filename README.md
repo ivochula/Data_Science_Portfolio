@@ -45,7 +45,7 @@ Still working on the first one...i will have news soon
 **Training in Kaggle competitions**
 
 Titanic - Everyone starts here, right?!?!
-TalkingData AdTracking Fraud Detection Challenge - This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, setp by step, enjoying it without pressure. 
+TalkingData AdTracking Fraud Detection Challenge - This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
 
 
 
