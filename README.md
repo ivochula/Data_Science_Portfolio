@@ -40,11 +40,11 @@ Learning 1% per day it will be 30% a month and 365% a year.
 * **Project:** URL
 Still working on the first one...i will have news soon 
 
-**Datalogger Project -** I am trying to build an aplication where we can calculate the price for loaning temperature dataloggers through the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices due to only two variables, and i deal with this problem several times, so i have decided to create a solution... lets see if i can get my limited data science knowledge to solve this problem.
+**Datalogger Project -** I am trying to build an aplication where we can calculate the price for loaning temperature dataloggers through the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices due to only two variables, and i deal with this problem several times, so i have decided to create a solution... lets see if i can get my limited data science knowledge to solve this problem. Supervised learning / Regression problem 
 
 **Training in Kaggle competitions**
 
-Titanic - Everyone starts here, right?!?!
+Titanic - Everyone starts here, right?!?! - Started with some exploratory analysis, trying to find the rates of survival for the different classes and ages. Replaced missing values, feature engineering, model creation and otimization.
 TalkingData AdTracking Fraud Detection Challenge - This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
 
 
