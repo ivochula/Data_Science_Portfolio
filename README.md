@@ -44,8 +44,8 @@ Still working on the first one...i will have news soon
 
 **Training in Kaggle competitions**
 
-Titanic - Everyone starts here, right?!?! - Started with some exploratory analysis, trying to find the rates of survival for the different classes and ages. Replaced missing values, feature engineering, model creation and otimization.
-TalkingData AdTracking Fraud Detection Challenge - This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
+*Titanic - Everyone starts here, right?!?! - Started with some exploratory analysis, trying to find the rates of survival for the different classes and ages. Replaced missing values, feature engineering, model creation and otimization.
+*TalkingData AdTracking Fraud Detection Challenge - This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
 
 
 
