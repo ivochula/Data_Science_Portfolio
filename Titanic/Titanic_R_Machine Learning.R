@@ -1,3 +1,4 @@
+###### START ######
 setwd('C:/Projetos/Titanic')
 getwd()
 
@@ -5,6 +6,11 @@ library(dplyr)
 library(tidyr)
 library(data.table)
 library(ggplot2)
+library(caret)
+library(corrplot)
+library(corrgram)
+library(randomForest)
+library(e1071)
 
 train = fread("C:/Projetos/Titanic/train.csv")
 test = fread("C:/Projetos/Titanic/test.csv")
@@ -127,7 +133,7 @@ young_final
 # Youngsters from 3rd class had only 37% chances of surviving against the >90% chance of 1st and 2nd class
 
 
-#REPLACE MISSING VALUES
+####REPLACE MISSING VALUES#####
 
 
 hist(df_1st$Age)
@@ -176,8 +182,7 @@ fare_q <- filter(df, (Fare >= 7.75) & (Fare <= 15.25))
 df$Fare[is.na(df$Fare)] <- median(fare_q$Fare)
 
 
-# NEW INSIGHTS
-
+################################ FEATURE ENGINEERING ################
 
 # Spliting Name column to Name, Title, Surname columns
 
@@ -185,31 +190,124 @@ df$Title <- gsub('(.+, )|(\\..+)', '', df$Name)
 df$Surname <- gsub('(.+, )|(.+. )|[[:punct:]]', '', df$Name)
 df$Name <- gsub('(\\,.+)', '', df$Name)
 
-#Reorganize the new columns
-df <- df[, c(1,3,13,4,14,5:12,2)]
-
 #Rearranging the Titles
 other_title <- c('Capt','Col', 'Don', 'Dona', 'Dr', 'Jonkheer', 'Lady', 'Major', 'Sir', 'Rev', 'the Countess')
-df_teste$Title[df_teste$Title == 'Mlle'] <- 'Miss' 
-df_teste$Title[df_teste$Title == 'Ms']  <- 'Miss'
-df_teste$Title[df_teste$Title == 'Mme'] <- 'Mrs' 
-df_teste$Title[df_teste$Title %in% other_title]  <- 'Other Title'
+df$Title[df$Title == 'Mlle'] <- 'Miss' 
+df$Title[df$Title == 'Ms']  <- 'Miss'
+df$Title[df$Title == 'Mme'] <- 'Mrs' 
+df$Title[df$Title %in% other_title]  <- 'Other Title'
 
 # Show title counts by sex
-table(df_teste$Sex, df_teste$Title)
+table(df$Sex, df$Title)
+
+# Family relation of survival 
+table(df$SibSp)
+table(df$Parch)
+
+df$Family <- df$SibSp + df$Parch + 1 # Number of relatives plus the person himself/herself
+df <- subset(df, select = -c(SibSp,Parch)) # Removing columns
+
+#Reorganize the new columns
+df_clean <- df[, c(1,3,11,4,12,13,5:10,2)]
 
 
+############################## PREPARING FOR ML ############
+
+# Removing Features 
+df_clean <- subset(df_clean, select = -c(Name, Surname, Ticket, Cabin))
+
+
+# Passing Characters Feature to Numeric
+df_clean$Title[df_clean$Title == 'Mrs'] <- 1
+df_clean$Title[df_clean$Title == 'Miss'] <- 2
+df_clean$Title[df_clean$Title == 'Master']  <- 3
+df_clean$Title[df_clean$Title == 'Mr']  <- 4
+df_clean$Title[df_clean$Title %in% "Other Title"]  <- 5
+df_clean$Title <- as.numeric(df_clean$Title) 
+
+df_clean$Sex[df_clean$Sex == 'male'] <- 0
+df_clean$Sex[df_clean$Sex == 'female'] <- 1
+df_clean$Sex <- as.numeric(df_clean$Sex) 
+
+df_clean$Embarked[df_clean$Embarked == 'C'] <- 0
+df_clean$Embarked[df_clean$Embarked == 'Q'] <- 1
+df_clean$Embarked[df_clean$Embarked == 'S'] <- 2
+df_clean$Embarked <- as.numeric(df_clean$Embarked) 
+
+df_clean$Survived <- as.factor(df_clean$Survived)
+
+# Removing Rows 62 and 830 because they have "" insteed of 'C', 'Q' or 'S'
+df_clean <- df_clean[-c(62, 830),] 
+
+# Normalize the values, putting all to the same scale
+scale.features <- function(df, variables){
+        for (variable in variables){
+                df[[variable]] <- scale(df[[variable]], center=T, scale=T)
+        }
+        return(df)
+}
+
+numeric_values <- c('Pclass', 'Title', 'Family', 'Age', 'Fare', 'Embarked')
+df_norm <- scale.features(df_clean, numeric_values)
 
 # Spliting train and test
-train <- df[1:891,] 
-test <- df[892:1309,]
+train_final <- df_norm[1:889,] 
+test_final <- df_norm[890:1307,]
+
+#Correlation and importance between features
+
+correlation <- cor(train_final, method = c('pearson'))
+corrplot(correlation, method = c('number'), type = c('lower'))
+
+train_final_imp <- randomForest(Survived ~ Pclass + Title + Family + Sex + Age + Fare, train_final, 
+                                ntree=1000, importance=TRUE, na.action=na.fail)
+
+importance(train_final_imp)
+varImpPlot(train_final_imp, sort=TRUE)
+
+#################### CREATING MACHINE LEARNING MODEL ##################
+
+#### KNN ####
+
+ctrl <- trainControl(method = "repeatedcv", repeats = 3) 
+
+model_V1 <- train(Survived ~ Pclass + Title + Family + Sex + Age + Fare + Embarked, train_final, method = "knn", 
+                trControl = ctrl, tuneLength = 20)
+predict_knn <- predict(model_V1, test_final)
+
+solution_knn <- data.frame(PassengerID = test_final$PassengerId, Survived = predict_knn)#0.77751 score Kaggle
 
 
-################################ WORK IN PROGRESS ##########
-df_teste <- df 
+#### Naive Bayes ####
 
-View(df_teste)
+model_V2 <- naiveBayes(Survived ~ Pclass + Title + Family + Sex + Age + Fare, train_final)
+predict_nb <- predict(model_V2, test_final)
 
-# Analise de pessoas da mesma familia
+solution_nb <- data.frame(PassengerID = test_final$PassengerId, Survived = predict_nb) #0.75598 score Kaggle
 
+# Embarked feature presents a lower score
 
+#### Random Forest ####
+
+model_V3 <- randomForest(Survived ~ Pclass + Title + Family + Sex + Age + Fare + Embarked, train_final, ntree=1000)
+varImp(model_V3)
+predict_rf <- predict(model_V3, test_final)
+
+solution_rf <- data.frame(PassengerID = test_final$PassengerId, Survived = predict_rf) #0.78468 score Kaggle
+
+#Compare prediction values of the 3 predictive models
+
+solution_all <- data.frame(PassengerID = test_final$PassengerId, KNN = predict_knn, NB = predict_nb, RF = predict_rf)
+
+table_knn <-  table(solution_all$KNN)
+table_nb <-  table(solution_all$NB)
+table_rf <-  table(solution_all$RF)
+
+compare_list = list(table_knn, table_nb, table_rf)
+names(compare_list) <- c("KNN", "Naive Bayes", "RandomForest")
+compare_list
+
+# Write the solution to file
+write.csv(solution_knn, file = 'knn_mod_Solution.csv', row.names = F)
+write.csv(solution_nb, file = 'nb_mod_Solution.csv', row.names = F)
+write.csv(solution_rf, file = 'rf_mod_Solution.csv', row.names = F)
