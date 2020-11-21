@@ -46,7 +46,9 @@ Still working on the first one...i will have news soon
 
 Titanic - Everyone starts here, right?!?! - Started with some exploratory analysis, trying to find the rates of survival for the different classes and ages. Replaced missing values, feature engineering, model creation and otimization.
 
-https://www.kaggle.com/ivochula/titanic-analysis-with-rf-first-notebook
+https://www.kaggle.com/ivochula/titanic-analysis-with-rf-first-notebook - R Language
+
+https://www.kaggle.com/ivochula/titanic-analysis-rf-and-gradientboost - Python Language
 
 TalkingData AdTracking Fraud Detection Challenge - This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
 
