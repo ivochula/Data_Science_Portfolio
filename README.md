@@ -42,13 +42,17 @@ Still working on the first one...i will have news soon
 
 **Datalogger Project -** I am trying to build an aplication where we can calculate the price for loaning temperature dataloggers through the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices due to only two variables, and i deal with this problem several times, so i have decided to create a solution... lets see if i can get my limited data science knowledge to solve this problem. Supervised learning / Regression problem 
 
-**Training in Kaggle competitions**
+**Training Datasets**
 
 Titanic - Everyone starts here, right?!?! - Started with some exploratory analysis, trying to find the rates of survival for the different classes and ages. Replaced missing values, feature engineering, model creation and otimization.
 
 https://www.kaggle.com/ivochula/titanic-analysis-with-rf-first-notebook - R Language
 
 https://www.kaggle.com/ivochula/titanic-analysis-rf-and-gradientboost - Python Language
+
+Cancer Death Rate - Many aspects of the behaviour of cancer disease are highly unpredictable. Even with the huge number of studies that have been done on the DNA mutation responsible for the disease, we are still unable to use these information at clinical level. However, it is important that we understand the effects and impacts of this disease from the past information as much as we possibly can. 
+
+https://github.com/ivochula/Data_Science_Portfolio/blob/master/Cancer%20Death%20Rate/ivo_chula_A3_Beg.ipynb - Python Language
 
 TalkingData AdTracking Fraud Detection Challenge - This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
 
