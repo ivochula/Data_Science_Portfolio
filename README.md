@@ -40,9 +40,13 @@ Learning 1% per day it will be 30% a month and 365% a year.
 * **Project:** URL
 Still working on the first one...i will have news soon 
 
-**Datalogger Project -** I am trying to build an aplication where we can calculate the price for loaning temperature dataloggers through the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices due to only two variables, and i deal with this problem several times, so i have decided to create a solution... lets see if i can get my limited data science knowledge to solve this problem. Supervised learning / Regression problem.
+**Datalogger Project -** I have built an aplication where we can calculate the price for loaning/renting a temperature dataloggers inputing the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices due to only two variables, and i deal with this problem several times, so i have decided to create this solution. Supervised learning / Regression problem.
 
 https://github.com/ivochula/deploy_flask_app
+
+Deployed Model through Heroku
+
+https://datalogger-rental.herokuapp.com/
 
 **Training Datasets**
 
