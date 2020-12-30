@@ -36,6 +36,9 @@ Learning 1% per day it will be 30% a month and 365% a year.
 * [LinkedIn](https://www.linkedin.com/in/ivo-chula-6b05503b/)
 * [Kaggle](https://www.kaggle.com/ivochula)
 
+## Dashboard PowerBI of studied hours ( updated 30/12/2020 ):
+https://github.com/ivochula/Data_Science_Portfolio/blob/master/Dashboard_Estudos.pdf
+
 
 ## Projects:
 
