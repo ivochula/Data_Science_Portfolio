@@ -23,6 +23,7 @@ Technical Sales 2014
 * [Microsoft Power BI for Data Science](https://mycourse.app/Lq2duQFqfZEY1PL99) ( DSA - Data Science Academy ) 2020
 * [Big Data Analytics with R and Microsoft Azure Machine Learning](https://mycourse.app/umaSeWHi8EhYxK439) ( DSA - Data Science Academy ) 2020
 * [Big Data Real-Time Analytics com Python e Spark](https://mycourse.app/f59W4uxLHNWb3MWV8) ( DSA - Data Science Academy ) 2020
+* [Machine Learning Foundation Bootcamp](https://dphi.tech/bootcamps/certificate/verify/8de02e95-45ac-4a93-9a32-3acdefb5068d) ( DPhi ) 2020
 
 
 I came across with Data Science through a friend which was studying a one year Data Science course in Dublin during the same time i was studying industrial automation. After i've finished my degree i've became curious about knowing this Data Science stuff that everyone was talking about and i started slowly reading and studying the basics of Big Data and Data Science. And what started as an hobby soon became a daily habbit trying to learn a little bit everyday. 
