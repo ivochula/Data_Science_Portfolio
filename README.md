@@ -68,6 +68,10 @@ https://dphi.tech/practice/challenge/52#leaderboard - 12th place in the Datathon
 Classify the microorganisms based on their morphological features
 https://dphi.tech/practice/challenge/55#leaderboard - 7th place in Datathon of DPhi website
 
+**Data Sprint #21:** Classification of Malware with PE headers
+Classify the malware
+
+
 **TalkingData AdTracking Fraud Detection Challenge -** This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
 
 
