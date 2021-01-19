@@ -70,7 +70,7 @@ https://dphi.tech/practice/challenge/55#leaderboard - 7th place in Datathon of D
 
 **Data Sprint #21:** Classification of Malware with PE headers  
 Classify the malware  
-https://github.com/ivochula/Data_Science_Portfolio/blob/master/Data%20Sprint%2021_Malware/Classification_Malware.ipynb - Notebook step by step 
+https://github.com/ivochula/Data_Science_Portfolio/blob/master/Data%20Sprint%2021_Malware/Classification_Malware.ipynb - Notebook step by step  
 https://dphi.tech/notebooks/792/ivochula/simple-analysis-and-modeling-for-malware-classification - Notebook DPHi website
 
 
