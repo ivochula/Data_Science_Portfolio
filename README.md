@@ -73,6 +73,9 @@ Classify the malware
 https://github.com/ivochula/Data_Science_Portfolio/blob/master/Data%20Sprint%2021_Malware/Classification_Malware.ipynb - Notebook step by step  
 https://dphi.tech/notebooks/792/ivochula/simple-analysis-and-modeling-for-malware-classification - Notebook DPHi website
 
+**Learn ML Insurance Prediction AI Challenge** The aim of this challenge is to predict whether the customer will be interested in buying insurance.
+https://dockship.io/certificates/6048a679c2c7fa59d94edced - 1st place
+
 
 **TalkingData AdTracking Fraud Detection Challenge -** This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
 
