@@ -8,12 +8,12 @@
 # Ivo Chula
 <sub>*Work in progress to became a Data Scientist* </sub>
 
-**Degrees:**
+**Degrees:**  
 Electronic Technician 2004  
 Industrial Automation 2019  
 Artificial Inteligence and Machine Learning 2021 ( on going )  
 
-**Carrer:**
+**Carrer:**  
 Electronic Technician 2004  
 Technical Sales 2014  
 
