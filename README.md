@@ -11,7 +11,7 @@
 **Degrees:**  
 Electronic Technician 2004  
 Industrial Automation 2019  
-Artificial Inteligence and Machine Learning 2021 ( on going )  
+Artificial Intelligence and Machine Learning 2021 ( on going )  
 
 **Carrer:**  
 Electronic Technician 2004  
