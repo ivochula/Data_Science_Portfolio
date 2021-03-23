@@ -9,12 +9,13 @@
 <sub>*Work in progress to became a Data Scientist* </sub>
 
 **Degrees:**
-Electronic Technician 2004
-Industrial Automation 2019
+Electronic Technician 2004  
+Industrial Automation 2019  
+Artificial Inteligence and Machine Learning 2021 ( on going )  
 
 **Carrer:**
-Electronic Technician 2004
-Technical Sales 2014
+Electronic Technician 2004  
+Technical Sales 2014  
 
 **Courses:**
 * [Introduction to Data Science 2.0](https://mycourse.app/Rdx2u5tMhuxhnCuw7) ( DSA - Data Science Academy ) 2019 
