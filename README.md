@@ -56,16 +56,20 @@ https://datalogger-rental.herokuapp.com/
 
 ## Training Datasets
 
-**Titanic -** Everyone starts here, right?!?! - Started with some exploratory analysis, trying to find the rates of survival for the different classes and ages. Replaced missing values, feature engineering, model creation and otimization.
+**2020**
+
+**Titanic -** Everyone starts here, right?!?! - Started with some exploratory analysis, trying to find the rates of survival for the different classes and ages. Replaced missing values, feature engineering, model creation and otimization. 
 
 https://www.kaggle.com/ivochula/titanic-analysis-with-rf-first-notebook - R Language
 
 https://www.kaggle.com/ivochula/titanic-analysis-rf-and-gradientboost - Python Language
 
-**Cancer Death Rate -** Many aspects of the behaviour of cancer disease are highly unpredictable. Even with the huge number of studies that have been done on the DNA mutation responsible for the disease, we are still unable to use these information at clinical level. However, it is important that we understand the effects and impacts of this disease from the past information as much as we possibly can. This was an application for a Datathon competition on DPhi website.
+**Cancer Death Rate -** Many aspects of the behaviour of cancer disease are highly unpredictable. Even with the huge number of studies that have been done on the DNA mutation responsible for the disease, we are still unable to use these information at clinical level. However, it is important that we understand the effects and impacts of this disease from the past information as much as we possibly can. This was an application for a Datathon competition on DPhi website. 
 
 https://github.com/ivochula/Data_Science_Portfolio/blob/master/Cancer%20Death%20Rate/ivo_chula_A3_Beg.ipynb - Python Language
 https://dphi.tech/practice/challenge/52#leaderboard - 12th place in the Datathon of DPhi website
+
+**2021**
 
 **Data Sprint #19:** Classification of Microorganisms of Sukhna and Dhanas Lakes
 Classify the microorganisms based on their morphological features
@@ -74,15 +78,8 @@ https://dphi.tech/practice/challenge/55#leaderboard - 7th place in Datathon of D
 **Data Sprint #21:** Classification of Malware with PE headers  
 Classify the malware  
 https://github.com/ivochula/Data_Science_Portfolio/blob/master/Data%20Sprint%2021_Malware/Classification_Malware.ipynb - Notebook step by step  
-https://dphi.tech/notebooks/792/ivochula/simple-analysis-and-modeling-for-malware-classification - Notebook DPHi website
+https://dphi.tech/notebooks/792/ivochula/simple-analysis-and-modeling-for-malware-classification - Notebook DPHi website 
 
 **Learn ML Insurance Prediction AI Challenge** The aim of this challenge is to predict whether the customer will be interested in buying insurance.
-https://dockship.io/certificates/6048a679c2c7fa59d94edced - 1st place in Dockship Website
-
-
-**TalkingData AdTracking Fraud Detection Challenge -** This presents as a challenge, until now i have already used the package ROSE in R language to create synthetic data in order to have a balanced dataset to train my classification model... the work goes on, step by step, enjoying it without pressure. 
-
-
-
-
+https://dockship.io/certificates/6048a679c2c7fa59d94edced - 1st place in Dockship Website (2021)
 
