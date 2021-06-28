@@ -11,7 +11,7 @@
 **Degrees:**  
 Electronic Technician 2004  
 Industrial Automation 2019  
-Artificial Intelligence and Machine Learning 2021 ( on going )  
+Artificial Intelligence and Machine Learning 2021 ( ongoing )  
 
 **Carrer:**  
 Electronic Technician 2004  
@@ -46,7 +46,12 @@ https://github.com/ivochula/Data_Science_Portfolio/blob/master/Dashboard_Estudos
 
 ## Projects:
 
-**Datalogger Project -** I have built an aplication where is possible to calculate the price for loaning/renting temperature dataloggers inputing the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices even if there are only two variables, and i deal with this problem several times, so i have decided to create this app to help me and my coworkers. Supervised learning / Regression problem.
+**Operational Dashboard for Calibration Certificates Project (2021) -** I've built a dasboard using only Python language with the package Dash and Plotly. This dashboard will be used by clients to visualize the data of each calibration certificate, and this way have a faster access to compare certificates, view their expire data, and this way help the client to organize thier calibration schedule. This version is only for demonstration and portfolio purpose, the client version has a user interface to insert data certificates and it is linked to a SQL database.
+
+https://github.com/ivochula/Calibration_certificates_dashboard
+
+
+**Datalogger Project (2020) -** I have built an aplication where is possible to calculate the price for loaning/renting temperature dataloggers inputing the number of days and number of loggers. In my company we do not have a fixed price for this problem and there are so many possibilities of prices even if there are only two variables, and i deal with this problem several times, so i have decided to create this app to help me and my coworkers. Supervised learning / Regression problem.
 
 https://github.com/ivochula/deploy_flask_app
 
