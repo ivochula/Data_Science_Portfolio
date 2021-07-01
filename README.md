@@ -46,11 +46,11 @@ https://github.com/ivochula/Data_Science_Portfolio/blob/master/Dashboard_Estudos
 
 ## Projects:
 
-**Operational Dashboard for Calibration Certificates Project (2021) -** I've built a dasboard using only Python language with the package Dash and Plotly. This dashboard will be used by clients to visualize the data of each calibration certificate, and this way have a faster access to compare certificates, view their expire data, and this way help the client to organize thier calibration schedule. This version is only for demonstration and portfolio purpose, the client version has a user interface to insert data certificates and it is linked to a SQL database. Version 1. 
+**Operational Dashboard for Calibration Certificates Project (2021) -** I've built a dasboard using only Python language with the package Dash and Plotly. This dashboard will be used by clients to visualize the data of each calibration certificate, and this way have a faster access to compare certificates, view their expire data, and this way help the client to organize thier calibration schedule. This version is only for demonstration and portfolio purpose, the client version has a user interface to insert data certificates and it is linked to a SQL database.  
 
 https://github.com/ivochula/Calibration_certificates_dashboard
 
-Deployed Dashboard
+Deployed Dashboard 
 
 http://ivochula.pythonanywhere.com/
 
