@@ -92,3 +92,10 @@ https://dphi.tech/notebooks/792/ivochula/simple-analysis-and-modeling-for-malwar
 **Learn ML Insurance Prediction AI Challenge** The aim of this challenge is to predict whether the customer will be interested in buying insurance.
 https://dockship.io/certificates/6048a679c2c7fa59d94edced - 1st place in Dockship Website (2021)
 
+**Data Sprint #39:** Chess Endgame  
+Build a machine learning model to calculate the depth of win  
+https://github.com/ivochula/Data_Science_Portfolio/blob/master/Data%20Sprint%2021_Malware/Classification_Malware.ipynb - Notebook step by step  
+https://dphi.tech/notebooks/1765/ivochula/good-score-notebook - Notebook DPHi website 
+https://dphi.tech/challenges/data-sprint-39-chess-endgame/138/leaderboard/practice/ - 3rd place in Datathon of DPhi website
+
+
