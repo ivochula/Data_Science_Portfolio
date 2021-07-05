@@ -94,7 +94,7 @@ https://dockship.io/certificates/6048a679c2c7fa59d94edced - 1st place in Dockshi
 
 **Data Sprint #39:** Chess Endgame  
 Build a machine learning model to calculate the depth of win  
-https://github.com/ivochula/Data_Science_Portfolio/blob/master/Data%20Sprint%2021_Malware/Classification_Malware.ipynb - Notebook step by step  
+https://github.com/ivochula/Data_Science_Portfolio/blob/master/Data%20Sprint%2039_Chess%20Endgame/Chess_Notebook_ML.ipynb - Notebook step by step  
 https://dphi.tech/notebooks/1765/ivochula/good-score-notebook - Notebook DPHi website 
 https://dphi.tech/challenges/data-sprint-39-chess-endgame/138/leaderboard/practice/ - 3rd place in Datathon of DPhi website
 
